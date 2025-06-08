@@ -121,3 +121,9 @@ body.dark-mode .carousel-control-next-icon {
   filter: invert(1);
   /* los vuelve claros en fondo oscuro */
 }
+
+/* Social */
+a:hover .bi {
+  transform: scale(1.2);
+  transition: transform 0.3s ease;
+}
