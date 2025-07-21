@@ -1,0 +1,125 @@
+{
+    "title": "Términos y Condiciones de Servicio de UnderTicket",
+    "lastUpdated": "21 de Julio de 2025",
+    "introduction": "Bienvenido a UnderTicket. Al acceder y utilizar nuestros servicios, usted acepta regirse por los presentes Términos y Condiciones de Servicio (\"T&C\"). Por favor, léalos detenidamente antes de utilizar nuestros servicios. Si no está de acuerdo con estos T&C, no debe utilizar nuestros servicios.",
+    "sections": [
+      {
+        "number": "1",
+        "title": "Definiciones",
+        "content": [
+          {
+            "term": "UnderTicket / Nosotros / Nuestro",
+            "definition": "Se refiere a la plataforma y el proveedor de servicios, [Nombre Legal de su Empresa/Persona Física], con domicilio en [Su Dirección Legal, Ciudad, País]."
+          },
+          {
+            "term": "Usuario / Cliente / Usted",
+            "definition": "Se refiere a cualquier persona física o jurídica que contrata los servicios de UnderTicket para el diseño, desarrollo, mantenimiento y/o programación de una App o web app."
+          },
+          {
+            "term": "Servicio(s)",
+            "definition": "Se refiere al conjunto de servicios digitales y tecnológicos ofrecidos por UnderTicket, incluyendo, pero no limitado a, el diseño, desarrollo, mantenimiento, actualizaciones y programación de Apps o web apps."
+          },
+          {
+            "term": "App del Cliente",
+            "definition": "La App o web app (aplicación web) creada, desarrollada y/o mantenida por UnderTicket para el Usuario, accesible directamente a través de un navegador web y no requiriendo instalación en dispositivos, destinada a facilitar la recepción de aportes económicos voluntarios por parte de terceros."
+          },
+          {
+            "term": "Aportes Voluntarios",
+            "definition": "Los montos económicos enviados por terceros (como seguidores, amigos, familiares, etc.) al Usuario a través de la App del Cliente."
+          },
+          {
+            "term": "Plataformas de Pago",
+            "definition": "Servicios de terceros (ej. MercadoPago, PayPal, Lemon, Prex, o cualquier otra App de pago segura) utilizados por el Usuario para procesar los Aportes Voluntarios."
+          }
+        ]
+      },
+      {
+        "number": "2",
+        "title": "Naturaleza y Alcance del Servicio de UnderTicket",
+        "content": [
+          "2.1. UnderTicket es una plataforma que ofrece servicios digitales y tecnológicos especializados en la creación, diseño, desarrollo, mantenimiento, actualización y soporte de Apps o web apps. Estas Apps están específicamente diseñadas para permitir a los Usuarios recibir Aportes Voluntarios de terceros.",
+          "2.2. Rol de Intermediario Tecnológico: UnderTicket actúa exclusivamente como un proveedor de servicios tecnológicos y un intermediario digital. Nuestro servicio se limita a la provisión de la infraestructura y el desarrollo de software para la App o web app del Cliente.",
+          "2.3. No Participación en Transacciones Financieras: UnderTicket no participa, ni directa ni indirectamente, en la gestión, procesamiento, retención, cobro o distribución de los montos de los Aportes Voluntarios que se realizan a través de la App del Cliente. La relación transaccional sobre estos Aportes Voluntarios es exclusivamente entre el Usuario y el tercero que realiza el aporte. UnderTicket no es parte de dicha transacción financiera ni asume responsabilidad alguna sobre la misma.",
+          "2.4. Responsabilidad sobre Plataformas de Pago: Los Aportes Voluntarios se gestionan a través de Plataformas de Pago de terceros que el Usuario debe configurar y vincular a su App del Cliente. El Usuario es el único responsable de cumplir con los términos y condiciones, políticas de privacidad y cualquier normativa legal o fiscal aplicable a dichas Plataformas de Pago. UnderTicket no se hace responsable por fallas, interrupciones, disputas, fraudes o cualquier inconveniente derivado del uso de estas Plataformas de Pago de terceros.",
+          "2.5. Tecnologías de Terceros y Seguridad: Para la provisión de nuestros Servicios y la mejora de la seguridad y funcionalidad de la plataforma y las Apps del Cliente, UnderTicket puede integrar y utilizar tecnologías de terceros, incluyendo servicios de Google como Gmail (para comunicaciones), Google Analytics (para análisis de uso y rendimiento), Google Search Console (para optimización y visibilidad), y Google reCAPTCHA (para la seguridad y prevención de spam y abusos). El uso de estas tecnologías está sujeto a sus propias políticas de privacidad y términos de servicio, los cuales el Usuario acepta al utilizar nuestros Servicios.",
+          "2.6. Ausencia de Registro de Usuarios Finales: La App del Cliente está diseñada para facilitar aportes voluntarios de terceros sin requerir que estos terceros se registren o creen una cuenta dentro de la App del Cliente. UnderTicket no gestiona ni almacena datos de registro de usuarios finales de las Apps del Cliente, lo que simplifica las obligaciones de privacidad para el Usuario en este aspecto."
+        ]
+      },
+      {
+        "number": "3",
+        "title": "Contratación y Pago del Servicio",
+        "content": [
+          "3.1. Planes de Suscripción: Los servicios de UnderTicket se ofrecen a través de planes de suscripción anual (Standard, Medium, Pro), cuyos detalles, características y precios se especifican en la sección de \"Planes\" de nuestro sitio web.",
+          "3.2. Objeto del Pago: El monto abonado por el Cliente a UnderTicket corresponde exclusivamente a la contraprestación por los servicios digitales y tecnológicos de diseño, desarrollo, mantenimiento, actualizaciones y programación de la App o web app del Cliente, constituyendo un servicio digital y tecnológico.",
+          "3.3. Licencia MIT: La App o web app del Cliente y el software subyacente proporcionado por UnderTicket se rigen por la Licencia MIT. Esto significa que el código fuente es de libre uso, modificación y distribución, sujeto a los términos expresos de dicha licencia. UnderTicket conservará los derechos de autor sobre el código fuente original.",
+          "3.4. Actualizaciones y Desarrollo Adicional: Las actualizaciones generales de la plataforma UnderTicket y mejoras que beneficien a todos los usuarios son exentas del costo anual del plan. Sin embargo, cualquier solicitud de desarrollo personalizado, funcionalidades específicas o modificaciones que no estén explícitamente incluidas en el plan anual contratado se cobrarán aparte, facturadas en fracciones de 1 hora, según las tarifas vigentes de UnderTicket."
+        ]
+      },
+      {
+        "number": "4",
+        "title": "Proceso de Activación y Configuración",
+        "content": [
+          "4.1. Plazos de Entrega: El periodo de activación y configuración de la App o web app del Cliente estará sujeto a la disponibilidad y los tiempos de trabajo del área de desarrollo de UnderTicket, así como al calendario de clientes existente. UnderTicket se compromete a comunicar al Cliente los plazos estimados de manera transparente y a realizar los mejores esfuerzos para cumplir con ellos.",
+          "4.2. Información del Cliente: El Cliente es el único responsable de proporcionar de manera oportuna y completa toda la información, materiales y contenido (incluyendo, pero no limitado a, imágenes, textos, logotipos, enlaces a redes sociales, credenciales de plataformas de pago, etc.) necesarios para el diseño y configuración de su App o web app del Cliente. Los retrasos en la entrega de esta información por parte del Cliente pueden afectar directamente los tiempos de activación y configuración."
+        ]
+      },
+      {
+        "number": "5",
+        "title": "Responsabilidades del Usuario",
+        "content": [
+          "5.1. Contenido de la App: El Usuario es el único y exclusivo responsable del contenido (textos, imágenes, videos, enlaces, información de eventos, descripciones, etc.) que se carga, publica y/o se muestra en su App o web app del Cliente. El Usuario garantiza que posee todos los derechos, licencias y permisos necesarios para el uso de dicho contenido y que el mismo no infringe derechos de terceros (incluyendo derechos de autor, marcas registradas, derechos de privacidad o publicidad) ni viola ninguna ley o regulación aplicable.",
+          "5.2. Cumplimiento Legal y Fiscal: El Usuario es el único responsable de cumplir con todas las leyes, regulaciones y normativas aplicables a sus actividades y a la recepción de Aportes Voluntarios, incluyendo, pero no limitado a, leyes fiscales, tributarias, de protección al consumidor, de publicidad, de juego, y cualquier otra normativa local o internacional. UnderTicket no ofrece asesoramiento legal, fiscal o contable.",
+          "5.3. Uso Adecuado: El Usuario se compromete a utilizar la App o web app del Cliente y los servicios de UnderTicket de manera legal, ética y de buena fe, absteniéndose de cualquier actividad que pueda ser considerada fraudulenta, engañosa, difamatoria, ilegal, que promueva actividades ilícitas, o que pueda dañar la reputación de UnderTicket o de terceros.",
+          "5.4. Credenciales de Acceso: El Usuario es responsable de mantener la confidencialidad de sus credenciales de acceso a la plataforma de UnderTicket y a su App o web app del Cliente, y de cualquier actividad que ocurra bajo su cuenta."
+        ]
+      },
+      {
+        "number": "6",
+        "title": "Propiedad Intelectual",
+        "content": [
+          "6.1. Propiedad de UnderTicket: UnderTicket retiene todos los derechos de propiedad intelectual sobre su plataforma, el software base, el código fuente de la App o web app del Cliente (bajo Licencia MIT, según lo establecido en la cláusula 3.3), diseños, logotipos, marcas y cualquier otro material desarrollado o utilizado en la prestación de los Servicios.",
+          "6.2. Propiedad del Usuario: El Usuario conserva todos los derechos de propiedad intelectual sobre el contenido que proporciona para su App o web app del Cliente. El Usuario otorga a UnderTicket una licencia limitada, no exclusiva y revocable para usar, reproducir, modificar y mostrar dicho contenido con el único fin de proveer y mantener la App o web app del Cliente."
+        ]
+      },
+      {
+        "number": "7",
+        "title": "Limitación de Responsabilidad",
+        "content": [
+          "7.1. Exclusión de Garantías: Los servicios de UnderTicket se proporcionan \"tal cual\" y \"según disponibilidad\", sin garantías de ningún tipo, ya sean expresas o implícitas, incluyendo, pero no limitado a, garantías implícitas de comerciabilidad, idoneidad para un propósito particular, no infracción o curso de desempeño.",
+          "7.2. Limitación General: En ningún caso UnderTicket, sus directores, empleados, socios, agentes, proveedores o afiliados serán responsables por daños indirectos, incidentales, especiales, consecuenciales o punitivos, incluyendo, sin limitación, pérdida de beneficios, datos, uso, buena voluntad u otras pérdidas intangibles, resultantes de (a) su acceso o uso o incapacidad de acceso o uso del Servicio; (b) cualquier conducta o contenido de terceros en el Servicio; (c) cualquier contenido obtenido del Servicio; y (d) acceso, uso o alteración no autorizados de sus transmisiones o contenido, ya sea basado en garantía, contrato, agravio (incluyendo negligencia) o cualquier otra teoría legal, hayamos sido o no informados de la posibilidad de tales daños, e incluso si un remedio aquí establecido se encuentra que ha fallado en su propósito esencial.",
+          "7.3. Responsabilidad Máxima: La responsabilidad total acumulada de UnderTicket hacia el Usuario por cualquier reclamo que surja de o esté relacionado con estos T&C o los Servicios, bajo cualquier teoría de responsabilidad, se limitará al monto total pagado por el Usuario a UnderTicket por los Servicios en los doce (12) meses anteriores al evento que dio origen al reclamo."
+        ]
+      },
+      {
+        "number": "8",
+        "title": "Indemnización",
+        "content": "Usted acepta defender, indemnizar y eximir de responsabilidad a UnderTicket, sus afiliados y sus respectivos directores, funcionarios, empleados y agentes de y contra cualquier reclamo, demanda, acción, responsabilidad, pérdida, daño, costo y gasto (incluidos los honorarios razonables de abogados) que surjan de o estén relacionados con: (a) su uso de los Servicios; (b) su incumplimiento de estos T&C; (c) su violación de cualquier ley o los derechos de un tercero; o (d) cualquier contenido que usted proporcione o utilice en su App del Cliente."
+      },
+      {
+        "number": "9",
+        "title": "Modificaciones de los Términos y Condiciones",
+        "content": "UnderTicket se reserva el derecho de modificar o reemplazar estos T&C en cualquier momento. Si una revisión es material, haremos esfuerzos razonables para proporcionar un aviso con al menos 30 días de anticipación antes de que los nuevos términos entren en vigencia. Lo que constituye un cambio material se determinará a nuestra entera discreción. Al continuar accediendo o utilizando nuestro Servicio después de que esas revisiones entren en vigencia, usted acepta regirse por los términos revisados."
+      },
+      {
+        "number": "10",
+        "title": "Terminación",
+        "content": "UnderTicket puede suspender o terminar su acceso a los Servicios inmediatamente, sin previo aviso ni responsabilidad, a nuestra entera discreción, por cualquier motivo, incluyendo, sin limitación, si usted incumple los T&C. Todas las disposiciones de los T&C que por su naturaleza deberían sobrevivir a la terminación, sobrevivirán a la terminación, incluyendo, sin limitación, las disposiciones de propiedad, exenciones de garantía, indemnización y limitaciones de responsabilidad."
+      },
+      {
+        "number": "11",
+        "title": "Ley Aplicable y Jurisdicción",
+        "content": "Los presentes T&C se rigen e interpretan de acuerdo con las leyes de la República Argentina, sin tener en cuenta sus disposiciones sobre conflictos de leyes. Cualquier disputa, controversia o reclamo que surja de o en relación con estos T&C, o el incumplimiento, terminación o validez de los mismos, será sometida a la jurisdicción exclusiva de los tribunales ordinarios de la Ciudad Autónoma de Buenos Aires, República Argentina, renunciando las partes a cualquier otro fuero o jurisdicción que pudiera corresponderles."
+      },
+      {
+        "number": "12",
+        "title": "Disposiciones Generales",
+        "content": [
+          "12.1. Acuerdo Completo: Estos T&C, junto con la Política de Privacidad y la Política de Devolución y Cancelación, constituyen el acuerdo completo entre usted y UnderTicket con respecto a los Servicios.",
+          "12.2. Divisibilidad: Si alguna disposición de estos T&C se considera inválida o inaplicable por un tribunal de jurisdicción competente, las demás disposiciones de estos T&C permanecerán en pleno vigor y efecto.",
+          "12.3. No Renuncia: La falta de UnderTicket de hacer cumplir cualquier derecho o disposición de estos T&C no se considerará una renuncia a dichos derechos o disposiciones."
+        ]
+      }
+    ],
+    "conclusion": "Al utilizar los servicios de UnderTicket, usted confirma que ha leído, entendido y aceptado estos Términos y Condiciones de Servicio."
+  }
+  

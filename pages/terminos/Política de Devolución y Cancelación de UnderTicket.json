@@ -1,0 +1,60 @@
+{
+    "title": "Política de Devolución y Cancelación de UnderTicket",
+    "lastUpdated": "21 de Julio de 2025",
+    "introduction": "Esta Política de Devolución y Cancelación describe las condiciones bajo las cuales los Usuarios pueden solicitar una devolución o cancelar su suscripción a los servicios de UnderTicket. Dada la naturaleza de nuestros servicios digitales y personalizados, le pedimos que lea atentamente esta política.",
+    "sections": [
+      {
+        "number": "1",
+        "title": "Naturaleza de Nuestros Servicios",
+        "content": "UnderTicket ofrece servicios digitales y tecnológicos que incluyen el diseño, desarrollo, mantenimiento y soporte de aplicaciones personalizadas. Estos servicios se facturan a través de planes de suscripción anual. El proceso de provisión de la App del Cliente implica un trabajo de desarrollo y configuración personalizado que comienza poco después de la contratación del servicio."
+      },
+      {
+        "number": "2",
+        "title": "Política de Devolución (Reembolsos)",
+        "content": [
+          "2.1. Servicios No Reembolsables por Inicio de Trabajo: Debido a que nuestros servicios implican la asignación de recursos, tiempo de desarrollo y trabajo personalizado desde el momento en que se inicia el proceso de activación y configuración de la App del Cliente, el monto abonado por el plan anual no es reembolsable una vez que el trabajo ha comenzado. Esto incluye, pero no se limita a, el inicio del diseño, la integración de la información proporcionada por el Cliente, o cualquier otra actividad de desarrollo.",
+          "2.2. Excepción por Imposibilidad de Provisión del Servicio: En el caso improbable y excepcional de que UnderTicket no pueda, por motivos atribuibles exclusivamente a nuestra plataforma y no al Cliente, iniciar o completar el proceso de activación y configuración del servicio dentro de un plazo razonable (a determinar caso por caso y notificar al Cliente), o si se demuestra una falla crítica en la provisión del servicio que impida completamente su uso previsto y que no pueda ser resuelta por UnderTicket, un reembolso total o parcial podría ser considerado a discreción de UnderTicket. Cualquier solicitud bajo esta excepción será evaluada individualmente.",
+          "2.3. No Reembolsos por Aportes Voluntarios: UnderTicket no es responsable ni gestiona los Aportes Voluntarios realizados a través de la App del Cliente. Por lo tanto, UnderTicket no ofrece reembolsos ni se hace responsable por ninguna transacción financiera entre el Usuario y los terceros que realizan aportes. Cualquier disputa o solicitud de reembolso relacionada con los Aportes Voluntarios debe ser gestionada directamente por el Usuario con el tercero y/o la Plataforma de Pago utilizada."
+        ]
+      },
+      {
+        "number": "3",
+        "title": "Política de Cancelación de Suscripción Anual y Renovación del Servicio",
+        "content": [
+          "3.1. Renovación del Servicio: La renovación de los planes de UnderTicket no es automática. Al cumplirse los 12 meses de su plan, UnderTicket se pondrá en contacto con el Cliente para gestionar la renovación del servicio.",
+          "3.2. Proceso de Renovación: Para continuar utilizando el servicio, el Cliente deberá confirmar su deseo de renovar y realizar el pago correspondiente antes de la fecha de vencimiento de su plan anual.",
+          "3.3. Efectos de la No Renovación: Si el servicio no es renovado al cumplirse los 12 meses del plan, y no se registra el pago correspondiente a la renovación, UnderTicket procederá a la suspensión del servicio y a la eliminación de la documentación y los datos de la App del Cliente de nuestros servidores. Se asumirá que el Cliente ha realizado un resguardo previo del contenido de su App. El Cliente dispondrá de un período de gracia de cuarenta y ocho (48) horas desde la suspensión del servicio para contactar a UnderTicket y solicitar una recuperación de sus datos, sujeta a la regularización del pago. Transcurrido este plazo de 48 horas sin que se haya regularizado la situación o solicitado la recuperación, la eliminación de la documentación y los datos será definitiva e irreversible, sin posibilidad de recuperarla.",
+          "3.4. No Reembolsos por Períodos No Utilizados: No se emitirán reembolsos parciales ni totales por períodos de suscripción no utilizados si la cancelación se realiza durante un período de servicio ya pagado. La cancelación solo afectará la futura renovación."
+        ]
+      },
+      {
+        "number": "4",
+        "title": "Comunicaciones del Servicio",
+        "content": [
+          "4.1. Notificaciones Automáticas: UnderTicket implementará un sistema de comunicación automática para mantener informado al Cliente sobre el estado de su servicio. Estas notificaciones se enviarán vía correo electrónico a la dirección registrada por el Cliente y, opcionalmente, a través de WhatsApp si el Cliente ha proporcionado su consentimiento para recibir comunicaciones por este medio. Nuestro equipo de Marketing se encarga de diseñar y gestionar estas comunicaciones para asegurar que sean claras, oportunas y de fácil comprensión.",
+          "4.2. Tipos de Notificaciones: Las comunicaciones incluirán, pero no se limitarán a:",
+          "  - Recordatorios de Vencimiento: Avisos previos a la fecha de vencimiento del plan para recordar la necesidad de renovación.",
+          "  - Actualizaciones del Servicio: Información sobre mejoras, nuevas funcionalidades o cambios importantes en la plataforma.",
+          "  - Suspensión del Servicio: Notificación inmediata en caso de suspensión del servicio por falta de pago o incumplimiento de los términos.",
+          "  - Eliminación Definitiva de Datos: Confirmación de la eliminación irreversible de la documentación y datos de la App del Cliente una vez transcurrido el período de gracia por no renovación.",
+          "4.3. Responsabilidad del Cliente: Es responsabilidad del Cliente mantener sus datos de contacto (especialmente la dirección de correo electrónico) actualizados en la plataforma de UnderTicket para asegurar la correcta recepción de estas comunicaciones. UnderTicket no se hará responsable por la falta de recepción de notificaciones debido a información de contacto desactualizada o incorrecta por parte del Cliente."
+        ]
+      },
+      {
+        "number": "5",
+        "title": "Proceso de Solicitud de Devolución o Cancelación",
+        "content": "Para solicitar una cancelación de renovación o para cualquier consulta relacionada con nuestra política de devolución, por favor, contáctenos a través de:\n[dirección de correo electrónico de soporte]\nDebe incluir en su solicitud su nombre de usuario, el plan contratado y el motivo de su solicitud."
+      },
+      {
+        "number": "6",
+        "title": "Cambios en la Política",
+        "content": "UnderTicket se reserva el derecho de modificar esta Política de Devolución y Cancelación en cualquier momento. Cualquier cambio será efectivo inmediatamente después de su publicación en nuestro sitio web, con la fecha de \"Última Actualización\" modificada. Se recomienda a los Usuarios revisar esta política periódicamente."
+      },
+      {
+        "number": "7",
+        "title": "Contacto",
+        "content": "Si tiene preguntas o inquietudes sobre esta Política de Devolución y Cancelación, por favor contáctenos en:\n[dirección de correo electrónico de soporte]"
+      }
+    ]
+  }
+  
