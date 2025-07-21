@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- <html lang="en" data-bs-theme="light"> -->
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta property="og:title" content="Mirá esta banda independiente" />
+    <meta
+      property="og:description"
+      content="Descubrí y apoyá a artistas emergentes con UnderTicket"
+    />
+    <meta
+      property="og:image"
+      content="https://raw.githubusercontent.com/UNDERTICKET/app/refs/heads/main/img/main-band-img.png"
+    />
+    <meta property="og:url" content="underticket.github.io/app/" />
+    <meta property="og:type" content="website" />
+    <title>metal | UndetTicket</title>
+    <link
+      rel="shortcut icon"
+      href="../../../img/favicon.ico"
+      type="image/x-icon"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="metal.style.css" />
+  </head>
+
+  <body>
+    <!-- nav -->
+    <nav class="navbar fixed-top bg-body-tertiary">
+      <div class="container-fluid">
+        <div class="d-flex justify-content-between align-items-center w-100">
+          <a class="navbar-brand" href="../../index.html">Metal</a>
+          <i
+            class="bi bi-share-fill"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasBottom"
+            aria-controls="offcanvasBottom"
+          ></i>
+          <div class="form-check form-switch ms-3">
+            <input class="form-check-input" type="checkbox" id="darkModeToggle">
+            <label class="form-check-label" for="darkModeToggle" id="darkModeLabel">Dark Mode</label>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ---------------------------------------------------------------------------- -->
+    <header
+      class="header-with-background d-flex justify-content-center align-items-end"
+    >
+      <img
+        class="band-logo img-fluid"
+        src="img/logo-band.png"
+        alt="Logo"
+      />
+    </header>
+
+    <main class="container my-4">
+      <!-- Captions Carousel -->
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+
+          <!-- <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button> -->
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="card mx-auto">
+              <div class="card-body">
+                <div class="row row-gap-2 py-4">
+                  <div class="col-12 col-sm-4">
+                    <time datetime="2025-07-07">
+                      <mark>domingo</mark>
+                      <span>07</span>
+                      <small>septiembre, 2025</small>
+                    </time>
+                  </div>
+
+                  <div class="col col-sm-8">
+                    <h5 class="card-title">Card title XXX</h5>
+                    <p class="card-text text-body-secondary">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Illum, deserunt?
+                    </p>
+                    <a href="#Maps ¿Dónde es el concierto?"
+                      >¿Dónde es el concierto?</a
+                    >
+                  </div>
+                </div>
+
+                <!-- <h5 class="card-title">Card title a</h5>
+              <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="card mx-auto">
+              <div class="card-body">
+                <div class="row row-gap-2 py-4">
+                  <div class="col-12 col-sm-4">
+                    <time datetime="2025-07-07">
+                      <mark>sábado</mark>
+                      <span>06</span>
+                      <small>septiembre, 2025</small>
+                    </time>
+                  </div>
+
+                  <div class="col col-sm-8">
+                    <h5 class="card-title">Card title XXX</h5>
+                    <p class="card-text text-body-secondary">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Illum, deserunt?
+                    </p>
+                    <a href="#Maps ¿Dónde es el concierto?"
+                      >¿Dónde es el concierto?</a
+                    >
+                  </div>
+                </div>
+
+                <!-- <h5 class="card-title">Card title a</h5>
+              <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6> -->
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="carousel-item">
+          <img src="..." class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div> -->
+          <!-- <div class="carousel-item">
+          <img src="..." class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div> -->
+        </div>
+      </div>
+      <!-- /Captions Carousel -->
+
+      <!-- button modal -->
+      <div class="text-center">
+        <button
+          type="button"
+          class="btn btn-primary my-5"
+          data-bs-toggle="modal"
+          data-bs-target="#staticBackdrop"
+        >
+          Launch demo modal
+          <i class="bi bi-coin"></i>
+        </button>
+      </div>
+      <!-- /button modal -->
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="staticBackdrop"
+        data-bs-backdrop="static"
+        data-bs-keyboard="false"
+        tabindex="-1"
+        aria-labelledby="staticBackdropLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="staticBackdropLabel">
+                Apoyo a la banda
+              </h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <p>
+                Cualquier aporte monetario es una gran ayuda para nosotros,
+                desde cualquier cuenta virtual puedes hacer un aporte.
+              </p>
+              <div class="CVU my-2">
+                <div>
+                  <span class="cvu-label">CVU:</span>
+                  <span class="cvu-number" id="numeroCuenta"
+                    >0000013000032115805056</span
+                  >
+                </div>
+                <i
+                  class="bi bi-clipboard-plus"
+                  id="btnCopiarCVU"
+                  style="cursor: pointer"
+                ></i>
+              </div>
+              <div class="ALIAS my-2">
+                <div>
+                  <span class="alias-label">ALIAS:</span>
+                  <span class="alias-name" id="aliasName">MiALIAS</span>
+                </div>
+                <i
+                  class="bi bi-clipboard-plus"
+                  id="btnCopiarAlias"
+                  style="cursor: pointer"
+                ></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /Modal -->
+
+      <!-- Maps ¿Dónde es el concierto? -->
+
+      <div class="my-5" id="Maps ¿Dónde es el concierto?">
+        <h2>¿Dónde es el concierto?</h2>
+        <div class="ratio ratio-1x1">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3287.7650132811987!2d-58.56794322348595!3d-34.508841172988426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb1265496e007%3A0xeeab50e4b5994a38!2smairimweb!5e0!3m2!1ses!2sar!4v1749337713568!5m2!1ses!2sar"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+      <!-- /Maps -->
+      <!-- Música -->
+      <section class="container my-5">
+        <h2 class="text-light mb-4">Música</h2>
+        <div class="row g-3">
+          <!-- Disco -->
+          <div class="col-4">
+            <div class="card bg-dark border-0 shadow-sm">
+              <div class="ratio ratio-1x1">
+                <img
+                  src="img/record-img.png"
+                  class="card-img-top object-fit-cover rounded"
+                  alt="Disco 1"
+                />
+              </div>
+            </div>
+          </div>
+
+          <!-- Cloná este bloque para más discos -->
+          <div class="col-4">
+            <div class="card bg-dark border-0 shadow-sm">
+              <div class="ratio ratio-1x1">
+                <img
+                  src="img/record-img.png"
+                  class="card-img-top object-fit-cover rounded"
+                  alt="Disco 2"
+                />
+              </div>
+            </div>
+          </div>
+          <!-- Más discos... -->
+          <div class="col-4">
+            <div class="card bg-dark border-0 shadow-sm">
+              <div class="ratio ratio-1x1">
+                <img
+                  src="img/record-img.png"
+                  class="card-img-top object-fit-cover rounded"
+                  alt="Disco 2"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card bg-dark border-0 shadow-sm">
+              <div class="ratio ratio-1x1">
+                <img
+                  src="img/record-img.png"
+                  class="card-img-top object-fit-cover rounded"
+                  alt="Disco 2"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card bg-dark border-0 shadow-sm">
+              <div class="ratio ratio-1x1">
+                <img
+                  src="img/record-img.png"
+                  class="card-img-top object-fit-cover rounded"
+                  alt="Disco 2"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card bg-dark border-0 shadow-sm">
+              <div class="ratio ratio-1x1">
+                <img
+                  src="img/record-img.png"
+                  class="card-img-top object-fit-cover rounded"
+                  alt="Disco 2"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /Música -->
+      <!-- Band -->
+      <section class="container my-5">
+        <div class="text-white p-4 rounded">
+          <h2 class="fw-bold">Band</h2>
+          <p class="mb-0">
+            Esta idea surgió por amor a las bandas under, conocemos el esfuerzo
+            que conlleva mantener una banda, comprar instrumentos o cambiar las
+            cuerdas de la viola y que no se nos rompa un parche o un pedal. Así
+            que la idea de apoyar a nuestra banda under favorita sea a tu
+            voluntad, el apoyo no es obligatorio.
+          </p>
+        </div>
+      </section>
+      <!-- /Gacetilla -->
+      <!-- Social -->
+      <section class="container my-5">
+        <h2 class="text-white fw-bold mb-4">Social</h2>
+        <div class="row text-center g-3">
+          <div class="col-4">
+            <a
+              href="#"
+              class="d-block ratio ratio-1x1 bg-dark-subtle rounded-circle"
+            >
+              <div
+                class="d-flex justify-content-center align-items-center h-100 w-100"
+              >
+                <i class="bi bi-youtube text-white fs-2"></i>
+              </div>
+            </a>
+          </div>
+          <div class="col-4">
+            <a
+              href="#"
+              class="d-block ratio ratio-1x1 bg-dark-subtle rounded-circle"
+            >
+              <div
+                class="d-flex justify-content-center align-items-center h-100 w-100"
+              >
+                <i class="bi bi-earbuds text-white fs-2"></i>
+              </div>
+            </a>
+          </div>
+          <div class="col-4">
+            <a
+              href="#"
+              class="d-block ratio ratio-1x1 bg-dark-subtle rounded-circle"
+            >
+              <div
+                class="d-flex justify-content-center align-items-center h-100 w-100"
+              >
+                <i class="bi bi-instagram text-white fs-2"></i>
+              </div>
+            </a>
+          </div>
+          <div class="col-4">
+            <a
+              href="#"
+              class="d-block ratio ratio-1x1 bg-dark-subtle rounded-circle"
+            >
+              <div
+                class="d-flex justify-content-center align-items-center h-100 w-100"
+              >
+                <i class="bi bi-spotify text-white fs-2"></i>
+              </div>
+            </a>
+          </div>
+          <div class="col-4">
+            <a
+              href="#"
+              class="d-block ratio ratio-1x1 bg-dark-subtle rounded-circle"
+            >
+              <div
+                class="d-flex justify-content-center align-items-center h-100 w-100"
+              >
+                <i class="bi bi-facebook text-white fs-2"></i>
+              </div>
+            </a>
+          </div>
+          <div class="col-4">
+            <a
+              href="#"
+              class="d-block ratio ratio-1x1 bg-dark-subtle rounded-circle"
+            >
+              <div
+                class="d-flex justify-content-center align-items-center h-100 w-100"
+              >
+                <i class="bi bi-music-note text-white fs-2"></i>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- /Social -->
+      <!-- Contacto artístico -->
+      <section class="container my-5 text-center">
+        <h2 class="text-white mb-4 fs-5 text-start">Contacto artístico</h2>
+        <div class="row justify-content-center g-3">
+          <div class="col-12 col-md-auto">
+            <a
+              href="#artista"
+              class="btn btn-outline-light fw-bold px-4 py-3 rounded-4 w-100 text-uppercase"
+            >
+              Contactar al artista
+            </a>
+          </div>
+          <div class="col-12 col-md-auto">
+            <a
+              href="http://eepurl.com/jgCILU"
+              target="_blank"
+              class="btn btn-dark fw-bold px-4 py-3 rounded-4 w-100 text-uppercase"
+            >
+              Suscribirme al newsletter
+            </a>
+          </div>
+          <div class="col-12 col-md-auto">
+            <a
+              href="#prensa"
+              class="btn btn-dark fw-bold px-4 py-3 rounded-4 w-100 text-uppercase"
+            >
+              Contacto prensa
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- /Contact -->
+    </main>
+    <!-- ---------------------------------------------------------------------------- -->
+    <!-- Footer -->
+    <footer class="container-fluid py-5 mt-5 border-top border-secondary">
+      <div
+        class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-3"
+      >
+        <!-- Identidad y frase -->
+        <div class="text-center text-md-start">
+          <h2 class="fw-bold text-white m-0">
+            Under<span class="fw-bolder">Ticket</span>
+          </h2>
+          <small class="text-secondary"
+            >EL verdadero fan es incondicional</small
+          >
+        </div>
+
+        <!-- Botón de acción -->
+        <a
+          href="#crear"
+          class="btn btn-dark text-secondary fw-medium px-4 py-2 rounded-pill"
+        >
+          Crear mi UnderTicket
+        </a>
+      </div>
+    </footer>
+    <!-- /Footer -->
+
+    <!-- share canvas -->
+    <div
+      class="offcanvas offcanvas-bottom"
+      tabindex="-1"
+      id="offcanvasBottom"
+      aria-labelledby="offcanvasBottomLabel"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasBottomLabel">
+          Compartir nuestra app
+        </h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body small text-end">
+        <a
+          href="https://www.facebook.com/yourpage"
+          target="_blank"
+          class="social-icon-link"
+        >
+          <i class="bi bi-facebook"></i>
+        </a>
+        <a
+          href="https://www.instagram.com/yourprofile"
+          target="_blank"
+          class="social-icon-link"
+        >
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a
+          href="https://wa.me/?text=Cheque%C3%A1%20esta%20banda%20independiente%3A%20https%3A%2F%2Fmiweb.com%2Fshow%2Fbanda"
+          target="_blank"
+          rel="noopener"
+          target=" _blank"
+          class="social-icon-link"
+        >
+          <i class="bi bi-whatsapp"></i>
+        </a>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+    <script>
+      (function() {
+        const toggle = document.getElementById('darkModeToggle');
+        const label = document.getElementById('darkModeLabel');
+        const body = document.body;
+        function setMode(dark) {
+          if (dark) {
+            body.classList.add('dark-mode');
+            toggle.checked = true;
+            label.textContent = 'Light Mode';
+          } else {
+            body.classList.remove('dark-mode');
+            toggle.checked = false;
+            label.textContent = 'Dark Mode';
+          }
+          localStorage.setItem('underticket-darkmode', dark ? '1' : '0');
+        }
+        const saved = localStorage.getItem('underticket-darkmode');
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        setMode(saved === null ? prefersDark : saved === '1');
+        toggle.addEventListener('change', function() {
+          setMode(toggle.checked);
+        });
+      })();
+    </script>
+  </body>
+</html>

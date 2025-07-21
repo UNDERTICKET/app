@@ -1,350 +1,291 @@
 <!DOCTYPE html>
-<html lang="en" data-bs-theme="dark">
-<!-- <html lang="en" data-bs-theme="light"> -->
+<html lang="es">
 
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta property="og:title" content="Mirá esta banda independiente" />
-  <meta property="og:description" content="Descubrí y apoyá a artistas emergentes con UnderTicket" />
-  <meta property="og:image"
-    content="https://raw.githubusercontent.com/UNDERTICKET/app/refs/heads/main/img/main-band-img.png" />
-  <meta property="og:url" content="underticket.github.io/app/" />
-  <meta property="og:type" content="website" />
-  <title>UndetTicket</title>
-  <link rel="shortcut icon" href="img/icon-underticket.png" type="image/x-icon">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" />
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UnderTicket: Dale un Impulso a lo que Amás</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Google Fonts - Inter -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Font Awesome para íconos -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .icon-service {
+      transition: color 0.3s;
+    }
+    body.dark-mode .icon-service.text-primary { color: #90caf9 !important; }
+    body.dark-mode .icon-service.text-success { color: #81c784 !important; }
+    body.dark-mode .icon-service.text-warning { color: #ffd54f !important; }
+    body.dark-mode .icon-service.text-danger { color: #e57373 !important; }
+    body.dark-mode .icon-service.text-info { color: #4fc3f7 !important; }
+    body.dark-mode .icon-service.text-secondary { color: #b0bec5 !important; }
+    body.dark-mode .icon-service.text-dark { color: #fff !important; }
+  </style>
 </head>
 
 <body>
-  <!-- nav -->
-  <nav class="navbar fixed-top bg-body-tertiary">
-    <div class="container-fluid">
-      <div class="d-flex justify-content-between align-items-center w-100">
-        <a class="navbar-brand" href="#">Band Name</a>
-        <i class="bi bi-share-fill" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom"
-          aria-controls="offcanvasBottom"></i>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light py-3 fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="img/underticket-icon.png" alt="UnderTicket Icon" class="brand-icon">
+        <img src="img/underticket-logo.png" alt="UnderTicket Logo" class="brand-name">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#hero">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#how-it-works">Cómo Funciona</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#plans">Planes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="categorias/index.html">categorías</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contacto</a>
+          </li>
+          <li class="nav-item d-flex align-items-center ms-3">
+            <div class="form-check form-switch m-0">
+              <input class="form-check-input" type="checkbox" id="darkModeToggle">
+              <label class="form-check-label" for="darkModeToggle" id="darkModeLabel">Dark Mode</label>
+            </div>
+          </li>
+        </ul>
       </div>
     </div>
   </nav>
-
-  <!-- ---------------------------------------------------------------------------- -->
-  <header class="header-with-background d-flex justify-content-center align-items-end">
-    <img class="band-logo img-fluid" src="img/logo-band.png" alt="Logo">
-  </header>
-
-  <main class="container my-4">
-    <!-- slides -->
-    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-
-        <!-- ------- -->
-        <div class="carousel-item active">
-
-          <div class="card mx-auto" style="width: 18rem;">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s
-                content.</p>
-              <!-- Button trigger modal -->
-              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                Launch demo modal
-              </button>
-            </div>
-          </div>
-
-          <!-- Modal -->
-          <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-            aria-labelledby="staticBackdropLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h1 class="modal-title fs-5" id="staticBackdropLabel">
-                    Modal title
-                  </h1>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-
-                <div class="modal-body">
-                  <p>Desde cualquier cuenta virtual puedes enviar tu apoyo a la banda</p>
-                  <div class="CVU my-2">
-                    <div>
-                      <span class="cvu-label">CVU:</span>
-                      <span class="cvu-number" id="numeroCuenta">0000013000032115805056</span>
-                    </div>
-                    <i class="bi bi-clipboard-plus" id="btnCopiarCVU" style="cursor: pointer;"></i>
-                  </div>
-                  <div class="ALIAS my-2">
-                    <div>
-                      <span class="alias-label">ALIAS:</span>
-                      <span class="alias-name" id="aliasName">MiALIAS</span>
-                    </div>
-                    <i class="bi bi-clipboard-plus" id="btnCopiarAlias" style="cursor: pointer;"></i>
-                  </div>
-                </div>
-              </div>
-            </div>
+  <div class="spacer m-5 p-3"></div>
+  <!-- Hero Section -->
+  <section id="hero" class="hero-section text-center py-5 mb-5 rounded-bottom-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-8 mx-auto">
+          <img src="img/underticket-icon.png" alt="UnderTicket Icon" class="icon-img mb-4 d-none d-lg-block mx-auto">
+          <h1>UnderTicket</h1>
+          <h2>Dale un Impulso a lo que Amás</h2>
+          <p class="lead mb-4">La aplicación sencilla para que seguidores, amigos y familia puedan enviar apoyo
+            económico de manera voluntaria.</p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <a href="#plans" class="btn btn-underticket-primary btn-lg px-4 me-sm-3">
+              ¡Empezá Con UnderTicket Hoy!
+              <img src="img/underticket-icon.png" alt="UnderTicket Icon" class="icon-btn">
+            </a>
           </div>
         </div>
-        <div class="carousel-item active">
-
-          <div class="card mx-auto" style="width: 18rem;">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s
-                content.</p>
-              <!-- Button trigger modal -->
-              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                Launch demo modal
-              </button>
-            </div>
-          </div>
-
-          <!-- Modal -->
-          <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-            aria-labelledby="staticBackdropLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h1 class="modal-title fs-5" id="staticBackdropLabel">
-                    Modal title
-                  </h1>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-
-                <div class="modal-body">
-                  <p>Desde cualquier cuenta virtual puedes enviar tu apoyo a la banda</p>
-                  <div class="CVU my-2">
-                    <div>
-                      <span class="cvu-label">CVU:</span>
-                      <span class="cvu-number" id="numeroCuenta">0000013000032115805056</span>
-                    </div>
-                    <i class="bi bi-clipboard-plus" id="btnCopiarCVU" style="cursor: pointer;"></i>
-                  </div>
-                  <div class="ALIAS my-2">
-                    <div>
-                      <span class="alias-label">ALIAS:</span>
-                      <span class="alias-name" id="aliasName">MiALIAS</span>
-                    </div>
-                    <i class="bi bi-clipboard-plus" id="btnCopiarAlias" style="cursor: pointer;"></i>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-      <!-- indicadores -->
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
-        data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
-        data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-    <!-- /slides -->
-    <!-- Maps  -->
-    <div class="my-5">
-      <h2>¿Dónde es el concierto?</h2>
-      <div class="ratio ratio-1x1">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3287.7650132811987!2d-58.56794322348595!3d-34.508841172988426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb1265496e007%3A0xeeab50e4b5994a38!2smairimweb!5e0!3m2!1ses!2sar!4v1749337713568!5m2!1ses!2sar"
-          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
     </div>
-    <!-- /Maps -->
-    <!-- Música -->
-    <section class="container my-5">
-      <h2 class="text-light mb-4">Música</h2>
-      <div class="row g-3">
+  </section>
 
-        <!-- Disco -->
-        <div class="col-4">
-          <div class="card bg-dark border-0 shadow-sm">
-            <div class="ratio ratio-1x1">
-              <img src="img/record-img.png" class="card-img-top object-fit-cover rounded" alt="Disco 1">
-            </div>
+  <!-- How It Works Section -->
+  <section id="how-it-works" class="py-5">
+    <div class="container">
+      <h2 class="text-center section-title mb-5">¿Cómo Funciona UnderTicket?</h2>
+      <div class="row text-center">
+        <div class="col-md-4">
+          <div class="card p-4 rounded-3 shadow">
+            <i class="fas fa-link feature-icon mb-4"></i>
+            <h4 class="fw-bold mb-3">Conectate</h4>
+            <p>Encontrá y seguí a tus artistas, amigos o familiares en la app. Descubrí nuevas pasiones y apoya a
+              quienes ya conocés.</p>
           </div>
         </div>
-
-        <!-- Cloná este bloque para más discos -->
-        <div class="col-4">
-          <div class="card bg-dark border-0 shadow-sm">
-            <div class="ratio ratio-1x1">
-              <img src="img/record-img.png" class="card-img-top object-fit-cover rounded" alt="Disco 2">
-            </div>
+        <div class="col-md-4">
+          <div class="card p-4 rounded-3 shadow">
+            <i class="fas fa-hand-holding-usd feature-icon mb-4"></i>
+            <h4 class="fw-bold mb-3">Apoyá</h4>
+            <p>Realizá aportes económicos voluntarios, la cantidad que quieras, cuando quieras, de forma segura y
+              sencilla.</p>
           </div>
         </div>
-        <!-- Más discos... -->
-        <div class="col-4 ">
-          <div class="card bg-dark border-0 shadow-sm">
-            <div class="ratio ratio-1x1">
-              <img src="img/record-img.png" class="card-img-top object-fit-cover rounded" alt="Disco 2">
-            </div>
+        <div class="col-md-4">
+          <div class="card p-4 rounded-3 shadow">
+            <i class="fas fa-rocket feature-icon mb-4"></i>
+            <h4 class="fw-bold mb-3">Impulsá</h4>
+            <p>Sé parte de la historia, ayudando a que esas pasiones y celebraciones florezcan. Tu apoyo marca la
+              diferencia.</p>
           </div>
-        </div>
-        <div class="col-4 ">
-          <div class="card bg-dark border-0 shadow-sm">
-            <div class="ratio ratio-1x1">
-              <img src="img/record-img.png" class="card-img-top object-fit-cover rounded" alt="Disco 2">
-            </div>
-          </div>
-        </div>
-        <div class="col-4 ">
-          <div class="card bg-dark border-0 shadow-sm">
-            <div class="ratio ratio-1x1">
-              <img src="img/record-img.png" class="card-img-top object-fit-cover rounded" alt="Disco 2">
-            </div>
-          </div>
-        </div>
-        <div class="col-4 ">
-          <div class="card bg-dark border-0 shadow-sm">
-            <div class="ratio ratio-1x1">
-              <img src="img/record-img.png" class="card-img-top object-fit-cover rounded" alt="Disco 2">
-            </div>
-          </div>
-        </div>
-
-
-      </div>
-    </section>
-    <!-- /Música -->
-    <!-- Gacetilla -->
-    <section class="container my-5">
-      <div class="text-white p-4 rounded">
-        <h2 class="fw-bold">Band</h2>
-        <p class="mb-0">
-          Esta idea surgió por amor a las bandas under, conocemos el esfuerzo que conlleva mantener una banda, comprar
-          instrumentos o cambiar las cuerdas de la viola y que no se nos rompa un parche o un pedal.
-          Así que la idea de apoyar a nuestra banda under favorita sea a tu voluntad, el apoyo no es obligatorio.
-        </p>
-      </div>
-    </section>
-    <!-- /Gacetilla -->
-    <!-- Social -->
-    <section class="container my-5">
-      <h2 class="text-white fw-bold mb-4">Social</h2>
-      <div class="row text-center g-3">
-        <div class="col-4">
-          <a href="#" class="d-block ratio ratio-1x1 bg-dark-subtle rounded-circle">
-            <div class="d-flex justify-content-center align-items-center h-100 w-100">
-              <i class="bi bi-youtube text-white fs-2"></i>
-            </div>
-          </a>
-        </div>
-        <div class="col-4">
-          <a href="#" class="d-block ratio ratio-1x1 bg-dark-subtle rounded-circle">
-            <div class="d-flex justify-content-center align-items-center h-100 w-100">
-              <i class="bi bi-earbuds text-white fs-2"></i>
-            </div>
-          </a>
-        </div>
-        <div class="col-4">
-          <a href="#" class="d-block ratio ratio-1x1 bg-dark-subtle rounded-circle">
-            <div class="d-flex justify-content-center align-items-center h-100 w-100">
-              <i class="bi bi-instagram text-white fs-2"></i>
-            </div>
-          </a>
-        </div>
-        <div class="col-4">
-          <a href="#" class="d-block ratio ratio-1x1 bg-dark-subtle rounded-circle">
-            <div class="d-flex justify-content-center align-items-center h-100 w-100">
-              <i class="bi bi-spotify text-white fs-2"></i>
-            </div>
-          </a>
-        </div>
-        <div class="col-4">
-          <a href="#" class="d-block ratio ratio-1x1 bg-dark-subtle rounded-circle">
-            <div class="d-flex justify-content-center align-items-center h-100 w-100">
-              <i class="bi bi-facebook text-white fs-2"></i>
-            </div>
-          </a>
-        </div>
-        <div class="col-4">
-          <a href="#" class="d-block ratio ratio-1x1 bg-dark-subtle rounded-circle">
-            <div class="d-flex justify-content-center align-items-center h-100 w-100">
-              <i class="bi bi-music-note text-white fs-2"></i>
-            </div>
-          </a>
         </div>
       </div>
-    </section>
-    <!-- /Social -->
-    <!-- Contact -->
-    <section class="container my-5 text-center">
-      <h2 class="text-white mb-4 fs-5 text-start">Contacto artístico</h2>
-      <div class="row justify-content-center g-3">
-        <div class="col-12 col-md-auto">
-          <a href="#artista" class="btn btn-outline-light fw-bold px-4 py-3 rounded-4 w-100 text-uppercase">
-            Contactar al artista
-          </a>
+    </div>
+  </section>
+
+  <!-- Plans Section -->
+  <section id="plans" class="py-5">
+    <div class="container">
+      <h2 class="text-center section-title mb-5">Elegí el Plan Perfecto para Vos</h2>
+      <div class="row justify-content-center">
+        <!-- Standard Plan -->
+        <div class="col-md-4">
+          <div class="card text-center mb-4 shadow">
+            <div class="price-card-header">
+              Plan Standard
+            </div>
+            <div class="price-card-body p-4">
+              <h3 class="mb-3">$X/año</h3> <!-- Reemplazar X con el precio real -->
+              <ul class="list-unstyled mb-4">
+                <li><i class="fas fa-check-circle"></i> Funcionalidades básicas</li>
+                <li><i class="fas fa-check-circle"></i> Soporte estándar</li>
+                <li><i class="fas fa-check-circle"></i> Ideal para empezar</li>
+                <li><i class="fas fa-check-circle"></i> Renovación anual</li>
+              </ul>
+              <a href="#" class="btn btn-underticket-primary w-100">Elegir Plan Standard</a>
+            </div>
+          </div>
         </div>
-        <div class="col-12 col-md-auto">
-          <a href="#prensa" class="btn btn-dark fw-bold px-4 py-3 rounded-4 w-100 text-uppercase">
-            Contacto prensa
-          </a>
+        <!-- Medium Plan -->
+        <div class="col-md-4">
+          <div class="card text-center mb-4 shadow">
+            <div class="price-card-header">
+              Plan Medium
+            </div>
+            <div class="price-card-body p-4">
+              <h3 class="mb-3">$Y/año</h3> <!-- Reemplazar Y con el precio real -->
+              <ul class="list-unstyled mb-4">
+                <li><i class="fas fa-check-circle"></i> Más funcionalidades</li>
+                <li><i class="fas fa-check-circle"></i> Mayor alcance</li>
+                <li><i class="fas fa-check-circle"></i> Soporte prioritario</li>
+                <li><i class="fas fa-check-circle"></i> Renovación anual</li>
+              </ul>
+              <a href="#" class="btn btn-underticket-primary w-100">Elegir Plan Medium</a>
+            </div>
+          </div>
+        </div>
+        <!-- Pro Plan -->
+        <div class="col-md-4">
+          <div class="card text-center mb-4 shadow">
+            <div class="price-card-header">
+              Plan Pro
+            </div>
+            <div class="price-card-body p-4">
+              <h3 class="mb-3">$Z/año</h3> <!-- Reemplazar Z con el precio real -->
+              <ul class="list-unstyled mb-4">
+                <li><i class="fas fa-check-circle"></i> Todas las herramientas</li>
+                <li><i class="fas fa-check-circle"></i> Soporte avanzado 24/7</li>
+                <li><i class="fas fa-check-circle"></i> Funcionalidades exclusivas</li>
+                <li><i class="fas fa-check-circle"></i> Renovación anual</li>
+              </ul>
+              <a href="#" class="btn btn-underticket-primary w-100">Elegir Plan Pro</a>
+            </div>
+          </div>
         </div>
       </div>
-    </section>
-    <!-- /Contact -->
-  </main>
-  <!-- ---------------------------------------------------------------------------- -->
+    </div>
+  </section>
+
+  <!-- Call to Action Section -->
+  <section id="cta" class="py-5 text-center">
+    <div class="container">
+      <h2 class="section-title mb-4">Tu Apoyo Marca la Diferencia</h2>
+      <p class="lead mb-4">En UnderTicket, creemos en la generosidad y en el impacto positivo que tiene el apoyo
+        colectivo. Cada contribución suma para hacer realidad esos sueños y momentos especiales.</p>
+      <a href="#" class="btn btn-underticket-primary btn-lg">¡Compartí  UnderTicket Hoy!</a>
+    </div>
+  </section>
+  <!-- Servicios Adicionales Section -->
+  <section class="container my-5">
+    <h3 class="mb-4 text-center">Servicios Adicionales para Músicos y Eventos</h3>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body text-center">
+            <i class="fas fa-camera-retro display-4 mb-3 text-primary icon-service"></i>
+            <h5 class="card-title">Fotografía para eventos y shows</h5>
+            <p class="card-text">Capturamos los mejores momentos de tus presentaciones y eventos en alta calidad.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body text-center">
+            <i class="fas fa-user-circle display-4 mb-3 text-success icon-service"></i>
+            <h5 class="card-title">Sesiones de fotos para eventos y músicos</h5>
+            <p class="card-text">Sesiones profesionales para portadas, promoción y redes sociales.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body text-center">
+            <i class="fas fa-bullhorn display-4 mb-3 text-warning icon-service"></i>
+            <h5 class="card-title">Marketing de contenidos y Social Media</h5>
+            <p class="card-text">Estrategias de contenido y gestión de redes para potenciar tu presencia online.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body text-center">
+            <i class="fas fa-bullseye display-4 mb-3 text-danger icon-service"></i>
+            <h5 class="card-title">Anuncios ADS</h5>
+            <p class="card-text">Campañas de anuncios en redes y Google para llegar a más público.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body text-center">
+            <i class="fas fa-cut display-4 mb-3 text-info icon-service"></i>
+            <h5 class="card-title">Edición de videos</h5>
+            <p class="card-text">Edición profesional de videos para promoción, redes y presentaciones.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body text-center">
+            <i class="fas fa-film display-4 mb-3 text-secondary icon-service"></i>
+            <h5 class="card-title">Producciones para videoclips y shows en vivo</h5>
+            <p class="card-text">Producción audiovisual completa para videoclips y grabaciones de shows.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body text-center">
+            <i class="fas fa-briefcase display-4 mb-3 text-dark icon-service"></i>
+            <h5 class="card-title">Management y asesoría de producción</h5>
+            <p class="card-text">Te ayudamos a planificar, organizar y potenciar tu carrera y eventos.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- Footer -->
-  <footer class="container-fluid py-5 mt-5 border-top border-secondary">
-    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
-
-      <!-- Identidad y frase -->
-      <div class="text-center text-md-start">
-        <h2 class="fw-bold text-white m-0">Under<span class="fw-bolder">Ticket</span></h2>
-        <small class="text-secondary">EL verdadero fan es incondicional</small>
+  <footer class="footer text-center py-4 mt-4 rounded-top-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 text-md-start mb-3 mb-md-0">
+          <p class="mb-0">&copy; 2024 UnderTicket. Todos los derechos reservados.</p>
+        </div>
+        <div class="col-md-6 text-md-end">
+          <ul class="nav justify-content-center justify-content-md-end">
+            <li class="nav-item"><a href="pages/terminos/Política de Devolución y Cancelación de UnderTicket.html" class="nav-link px-2" target="_blank">Política de Devolución y Cancelación</a></li>
+            <li class="nav-item"><a href="pages/terminos/Política de Privacidad de UnderTicket.html" class="nav-link px-2" target="_blank">Política de Privacidad</a></li>
+            <li class="nav-item"><a href="pages/terminos/Términos y Condiciones de Servicio de UnderTicket.html" class="nav-link px-2" target="_blank">Términos y Condiciones de Servicio</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2" target="_blank">FAQ</a></li>
+          </ul>
+        </div>
       </div>
-
-      <!-- Botón de acción -->
-      <a href="#crear" class="btn btn-dark text-secondary fw-medium px-4 py-2 rounded-pill">
-        Crear mi UnderTicket
-      </a>
     </div>
   </footer>
-  <!-- /Footer -->
 
-  <!-- share canvas -->
-  <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
-    <div class="offcanvas-header">
-      <h5 class="offcanvas-title" id="offcanvasBottomLabel">
-        Compartir nuestra app
-      </h5>
-      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-    </div>
-    <div class="offcanvas-body small text-end">
-      <a href="https://www.facebook.com/yourpage" target="_blank" class="social-icon-link">
-        <i class="bi bi-facebook"></i>
-      </a>
-      <a href="https://www.instagram.com/yourprofile" target="_blank" class="social-icon-link">
-        <i class="bi bi-instagram"></i>
-      </a>
-      <a href="https://wa.me/?text=Cheque%C3%A1%20esta%20banda%20independiente%3A%20https%3A%2F%2Fmiweb.com%2Fshow%2Fbanda"
-        target="_blank" rel="noopener"" target=" _blank" class="social-icon-link">
-        <i class="bi bi-whatsapp"></i>
-      </a>
-    </div>
-  </div>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
-    crossorigin="anonymous"></script>
-
-  <script src="script.js"></script>
+  <!-- Bootstrap JS y dependencias -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+  <script src="scripts/index.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap");
+
+/* Variables CSS para colores y sombras */
+:root {
+  --main-clr: #ffca30;
+  --main-clr-dark: #e6b800;
+  --dark-clr: #130b05;
+  --light-clr: #FFF2CA;
+  --bg-light: #f8f9fa;
+  --bg-dark: #181818;
+  --text-light: #f8f9fa;
+  --text-dark: #181818;
+  --accent: #ffca30;
+  --accent-dark: #e6b800;
+  --border-light: #e0e0e0;
+  --border-dark: #232323;
+  --shadow-light: 0 2px 8px rgba(0,0,0,0.06);
+  --shadow-dark: 0 2px 8px rgba(0,0,0,0.25);
+}
+
+/* Estilos base del cuerpo */
+body {
+  font-family: 'Lexend';
+  background-color: var(--bg-light);
+  color: var(--text-dark);
+  transition: background 0.3s, color 0.3s;
+}
+
+body.dark-mode {
+  background-color: var(--bg-dark);
+  color: var(--text-light);
+}
+
+/* Estilos específicos de la barra de navegación */
+.navbar {
+  box-shadow: 0 2px 4px rgba(0,0,0,.05); /* Sombra sutil para la barra de navegación */
+  background-color: var(--bg-light) !important;
+  color: var(--text-dark) !important;
+  border-bottom: 1px solid var(--border-light);
+  transition: background 0.3s, color 0.3s;
+}
+body.dark-mode .navbar {
+  background-color: var(--bg-dark) !important;
+  color: var(--text-light) !important;
+  border-bottom: 1px solid var(--border-dark);
+}
+.brand-icon {
+  max-height: 50px; /* Tamaño del logo en la barra de navegación */
+  width: auto;
+}
+
+.brand-name {
+  max-width: 220px;
+}
+
+/* Estilos específicos de la sección Hero */
+.hero-section {
+  background-color: var(--underticket-yellow);
+  color: var(--underticket-dark);
+}
+.hero-section h1 {
+  font-weight: 700;
+  font-size: 3.5rem;
+}
+.hero-section p {
+  font-size: 1.25rem;
+  line-height: 1.6;
+}
+.icon-img {
+  max-height: 80px; /* Tamaño del icono en la sección hero */
+}
+
+.icon-btn {
+  height: 40px;
+  width: auto;
+}
+
+/* Estilos de botones personalizados */
+.btn-underticket-primary {
+  background: var(--main-clr);
+  color: var(--dark-clr);
+  border: none;
+  font-weight: 600;
+  transition: background 0.2s, color 0.2s;
+}
+.btn-underticket-primary:hover {
+  background: var(--main-clr-dark);
+  color: var(--dark-clr);
+}
+body.dark-mode .btn-underticket-primary {
+  background: var(--accent-dark);
+  color: var(--text-dark);
+}
+
+.btn-underticket-outline {
+  background: transparent;
+  color: var(--main-clr);
+  border: 2px solid var(--main-clr);
+  font-weight: 600;
+  transition: background 0.2s, color 0.2s, border 0.2s;
+}
+.btn-underticket-outline:hover {
+  background: var(--main-clr);
+  color: var(--dark-clr);
+}
+body.dark-mode .btn-underticket-outline {
+  color: var(--accent-dark);
+  border-color: var(--accent-dark);
+}
+body.dark-mode .btn-underticket-outline:hover {
+  background: var(--accent-dark);
+  color: var(--text-dark);
+}
+
+/* Estilos generales de títulos de sección */
+.section-title {
+  color: var(--main-clr);
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+body.dark-mode .section-title {
+  color: var(--accent-dark);
+}
+
+/* Estilos de iconos de características */
+.feature-icon {
+  color: var(--main-clr);
+  font-size: 2.5rem;
+}
+body.dark-mode .feature-icon {
+  color: var(--accent-dark);
+}
+
+/* Estilos generales de las tarjetas (cards) */
+.card {
+  border: none;
+  transition: background 0.3s, color 0.3s, box-shadow 0.3s;
+  background: var(--light-clr);
+  color: var(--dark-clr);
+  box-shadow: var(--shadow-light);
+}
+body.dark-mode .card {
+  background: #232323;
+  color: var(--text-light);
+  box-shadow: var(--shadow-dark);
+}
+.card:hover {
+  transform: translateY(-5px); /* Efecto de elevación en hover */
+}
+
+/* Estilos específicos del encabezado de las tarjetas de precios */
+.price-card-header {
+  background: var(--main-clr);
+  color: var(--dark-clr);
+  font-weight: 700;
+  font-size: 1.2rem;
+  padding: 1rem 0;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+body.dark-mode .price-card-header {
+  background: var(--accent-dark);
+  color: var(--text-dark);
+}
+
+/* Estilos específicos del cuerpo de las tarjetas de precios */
+.price-card-body h3 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--underticket-yellow);
+}
+.price-card-body ul {
+  list-style: none;
+  padding: 0;
+}
+.price-card-body ul li {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+.price-card-body ul li i {
+  color: var(--underticket-green-check); /* Color verde para el checkmark */
+  margin-right: 10px;
+}
+
+
+/* Estilos específicos del pie de página */
+.footer {
+  background-color: var(--bg-light) !important;
+  color: var(--text-dark) !important;
+  border-bottom: 1px solid var(--border-light);
+  transition: background 0.3s, color 0.3s;
+}
+body.dark-mode .footer {
+  background-color: var(--bg-dark) !important;
+  color: var(--text-light) !important;
+  border-bottom: 1px solid var(--border-dark);
+}
+.footer .nav-link {
+  color: var(--underticket-light-text);
+  transition: color 0.3s ease;
+}
+.footer .nav-link:hover {
+  color: var(--underticket-yellow);
+}
+
+/* Transiciones suaves para todos los elementos principales */
+.navbar, .footer, .card, .btn, .section-title, .feature-icon, .price-card-header {
+  transition: background 0.3s, color 0.3s, border 0.3s, box-shadow 0.3s;
+}
